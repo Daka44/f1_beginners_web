@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F1 입문자 사이트</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
 </head>
 <body>
 <header>
@@ -23,34 +24,58 @@
     <div class="intro">
         <h1>F1의 세계로 오신 것을 환영합니다!</h1>
         <p>F1 입문자를 위한 모든 정보를 한 곳에서.</p>
-        <a href="rules.html" class="cta">시작하기</a>
+        <a href="./pages/start.html" class="cta">시작하기</a>
     </div>
 </div>
+
 <main>
+    <section class="recent-race">
+        <h2>가장 최근 그랑프리</h2>
+    </section>
     <section class="highlight-video">
         <div class="video-container">
             <iframe width="560" height="315"
                     src="https://www.youtube.com/embed/NGSPg5ns2-0?si=bwmsAALqHC_0k5Ip"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-
+                    allowfullscreen>
             </iframe>
-
         </div>
         <div class="video-summary">
-            <h2>카타르 그랑프리</h2>
+            <h2>카타르 그랑프리 주요정보</h2>
             <p>
-                2024/12/2 에 진행된 카타르 그랑프리 의 하이라이트 영상입니다. 세이프티카를
-                3번 호출하고 5명이 리타이어하는 일이 일어났으며, 월드챔피언을 확정지은 베르스타펜이지만
-                여전히 그는 빠르게 달렸습니다. 페라리와 멕라렌의 컨스트럭터 싸움에서 예상밖의 일로 페라리가 이점을 가져갔습니다.
+                23라운드 카타르 그랑프리 의 하이라이트 영상입니다.<br>
+                5명 리타이어, 세이프티카 3번 <br>
+                막스 베르스타펜 우승 <br>
+                멕라렌에게 유리했던 서킷 하지만 페라리가 더 많은 포인트를 가져감 <br>
+                아부다비 최종전 더욱 뜨거워질 예정
             </p>
             <p>
                 자세한 결과와 정보를보려면 <a href="races.html">경기 정보</a> 페이지를 확인하세요.
             </p>
         </div>
     </section>
+
+    <section class="next-race">
+        <h2>다음 그랑프리</h2>
+        <div class="race-container">
+            <div class="race-summary">
+                <h3>2024 아부다비 그랑프리</h3>
+                <h4 style="color: #0066cc;">이번시즌 마지막 레이스 아부다비 그랑프리</h4>
+                <p>주요정보 <br>
+                페라리에게 유리한 아부다비 서킷, 멕라렌과 페라리의 점수차는 21점<br>
+                컨스트럭터 챔피언은 누구? 페라리 vs 멕라렌 vs 레드불(?)<br>
+                시즌 마지막 경기의 우승자는 누구?<br>
+                경기 날짜: 2024년 12월 6일 ~ 8일</p>
+                <p>더 많은 정보는 <a href="races.html">경기 일정</a> 페이지에서 확인하세요.</p>
+            </div>
+            <div class="race-photo">
+                <img src="assets/next-race-image.jpg" alt="Next Race Image">
+            </div>
+        </div>
+    </section>
 </main>
+
 <footer class="site-footer">
     <div class="footer-content">
         <p>&copy; 2024 F1 Beginner's Guide</p>
